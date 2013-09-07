@@ -13,3 +13,7 @@ This implementation resolves the backwash issue when using a virtual top and vir
 And has a quite similar memory consumption, but less time consumption, compared to add another WeightedQuickUnionUF object, connecting to virtual top only.
 
 Passes all tests and style check.
+
+Week2 - Queues
+-----------------------------------  
+Remember to clean up unreferenced objects when deleting nodes to avoid loitering.
