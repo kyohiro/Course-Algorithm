@@ -12,8 +12,14 @@ Thus if two groups are connecting to the bottom or top in the same time, the the
 This implementation resolves the backwash issue when using a virtual top and virtual bottom to check percolation.
 And has a quite similar memory consumption, but less time consumption, compared to add another WeightedQuickUnionUF object, connecting to virtual top only.
 
-Passes all tests and style check.
-
 Week2 - Queues
 -----------------------------------  
 Remember to clean up unreferenced objects when deleting nodes to avoid loitering.
+
+Week3 - Collinear
+-----------------------------------  
+The major concern is how to determine if the points combination is already kept.
+
+Here we calculate hash code of the list of sorted points in a line, and keep them in a hashmap.
+
+The Fast algorithm will always return the full line but not a subsegment, so as long as the array is sorted, there is no need to worry if same combination would have different hash code.
