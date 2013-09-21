@@ -23,3 +23,10 @@ The major concern is how to determine if the points combination is already kept.
 Here we calculate hash code of the list of sorted points in a line, and keep them in a hashmap.
 
 The Fast algorithm will always return the full line but not a subsegment, so as long as the array is sorted, there is no need to worry if same combination would have different hash code.
+
+Week4 - 8 Puzzles
+-----------------------------------  
+To avoid calculating a non-solvable board, wasting too many time, we adopt the approach that:
+Solve the input board and its twin board simultaneously. 
+
+If the twin board (created by flipping two neighbour grids in a row) gets solved successfully, then the input board is not solvable.
