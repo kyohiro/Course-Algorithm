@@ -30,3 +30,9 @@ To avoid calculating a non-solvable board, wasting too many time, we adopt the a
 Solve the input board and its twin board simultaneously. 
 
 If the twin board (created by flipping two neighbour grids in a row) gets solved successfully, then the input board is not solvable.
+
+Week5 - Kd Tree
+----------------------------------- 
+The most inportant pruning approach for nearest method - check the points locates on which side, and run that side first.
+This helps avoid majority of useless tests.
+
