@@ -36,3 +36,9 @@ Week5 - Kd Tree
 The most inportant pruning approach for nearest method - check the points locates on which side, and run that side first.
 This helps avoid majority of useless tests.
 
+Week6 - Wordnet
+-----------------------------------
+To search for the shortest ancestor, do BFS starting from the two sources. Time complexity would still be E+V.
+
+
+
